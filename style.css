@@ -104,7 +104,7 @@ body {
 }
 
 .hero-content {
-  justify-items: anchor-center;
+  text-align: -webkit-center;
   padding: 40px 0;
 }
 
@@ -148,11 +148,9 @@ body {
   padding: 20px;
   box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
   transition: transform .28s ease, box-shadow .28s ease;
-}
-
-.article.produtos-grid{
   text-align: -webkit-center;
 }
+
 .produto-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 30px rgba(16, 24, 40, 0.12);
