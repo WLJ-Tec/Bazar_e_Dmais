@@ -323,6 +323,11 @@ body {
   flex-wrap: wrap;
 }
 
+/* garante posicionamento do menu mobile quando aberto */
+.navbar {
+  position: relative;
+}
+
 .section-title {
   text-align: center;
 }
@@ -331,4 +336,23 @@ body {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
+}
+
+/* estado aberto do menu mobile */
+.nav-links.open {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 12px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  z-index: 50;
+}
+
+.nav-toggle.open {
+  transform: rotate(90deg);
 }
