@@ -192,7 +192,7 @@ body {
 }
 
 .store-card h3 {
-  color: var(--card-bg);
+  color: var(--red-900);
   font-size: 1.3rem;
   margin-bottom: 10px;
 }
