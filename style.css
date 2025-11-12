@@ -177,8 +177,8 @@ body {
 }
 
 .store-card {
-  background-color: var(--red-900);
-  color: var(--card-bg);
+  background-color: var(--yellow);
+  color: var(--red-900);
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   width: 280px;
