@@ -145,7 +145,7 @@ body {
 
 .produto-card {
   background: var(--yellow-400);
-  color:var(--card-bg);
+  color:var(--red-900);
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
