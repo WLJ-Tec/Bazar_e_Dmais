@@ -311,6 +311,10 @@ body {
   padding: 20px 0;
 }
 
+.footer{
+  display: inline-block;
+  padding-right: 90px;
+}
 
 .logo {
   height: 70px;
@@ -405,6 +409,10 @@ body {
   .hero-content {
     text-align: center;
   }
+  .footer{
+  display: inline-block;
+  padding-right: 0px;
+}
   .wlj {
     font-size: 10px;
   }
