@@ -7,6 +7,7 @@
 :root {
   --blue-900: #002060;
   --blue-600: #0b3aa6;
+  --red-900: #b91c1c;
   --yellow: #ffd9007c;
   --muted: #6b7280;
   --card-bg: #ffffff;
@@ -15,7 +16,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #111827;
-  background: var(--yellow);
+  background: var(--card-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
@@ -46,6 +47,7 @@ body {
   display: flex;
   gap: 22px;
   align-items: center;
+  transition: .5s;
 }
 
 .nav-links a {
@@ -142,7 +144,7 @@ body {
 }
 
 .produto-card {
-  background: var(--blue-600);
+  background: var(--red-900);
   color:var(--card-bg);
   border-radius: 12px;
   padding: 20px;
@@ -163,7 +165,6 @@ body {
 }
 
 .stores h2 {
-  font-size: 2rem;
   color: var(--blue-900);
   margin-bottom: 40px;
 }
@@ -176,8 +177,8 @@ body {
 }
 
 .store-card {
-  background-color: var(--blue-600);
-  color: var(--yellow);
+  background-color: var(--red-900);
+  color: var(--card-bg);
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   width: 280px;
@@ -268,54 +269,8 @@ body {
   animation-delay: .36s;
 }
 
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
 
-@media (max-width:900px) {
-  .hero h1 {
-    font-size: 30px;
-  }
 
-  .nav-links {
-    display: none;
-  }
-
-  .nav-toggle {
-    display: inline-block;
-  }
-
-  .whatsapp-float .wa-text {
-    display: none;
-  }
-
-  .hero-content {
-    text-align: center;
-  }
-}
-
-@media (max-width:520px) {
-  .hero h1 {
-    font-size: 22px;
-  }
-
-  .logo {
-    height: 48px;
-  }
-
-  .whatsapp-float {
-    right: 12px;
-    bottom: 12px;
-    padding: 10px 12px;
-  }
-
-  .whatsapp-float .wa-text {
-    display: none;
-  }
-}
 
 .wlj {
   text-align: center;
@@ -397,8 +352,60 @@ body {
   padding: 12px 40px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   z-index: 50;
+  transition: .5s;
 }
 
 .nav-toggle.open {
   transform: rotate(90deg);
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width:900px) {
+  .btn-cta{
+    display: none;  
+  }
+  p{
+    font-size: 12px;
+  }
+  .store-card h3{
+    font-size: 16px;
+  }
+.store-card p{
+    font-size: 12px;
+  }
+  .hero h1 {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .produtos-grid {
+    font-size: 15px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: inline-block;
+  }
+
+  .whatsapp-float .wa-text {
+    display: none;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+  .wlj {
+    font-size: 10px;
+  }
 }
