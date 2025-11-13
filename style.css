@@ -326,7 +326,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 40px;
+  padding: 40px 40px;
 }
 
 /* garante posicionamento do menu mobile quando aberto */
