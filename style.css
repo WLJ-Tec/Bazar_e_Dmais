@@ -34,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 48px 50px;
+  padding: 18px 0;
 }
 
 .logo {
@@ -326,7 +326,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 60px 40px;
 }
 
 /* garante posicionamento do menu mobile quando aberto */
