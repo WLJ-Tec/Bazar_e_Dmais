@@ -447,6 +447,7 @@ body {
 }
 
 .map-btn {
+    margin-top: 10px;
     display: inline-flex;
     align-items: center;
     gap: 6px;
