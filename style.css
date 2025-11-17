@@ -445,3 +445,20 @@ body {
 .whatsapp-btn:hover {
     background-color: #1ebe5d;
 }
+
+.map-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 14px;
+    background-color: #4285F4;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.map-btn:hover {
+    background-color: #2f69d8;
+}
