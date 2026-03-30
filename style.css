@@ -159,7 +159,6 @@ body {
   box-shadow: 0 10px 30px rgba(16, 24, 40, 0.12);
 }
 
-/* ====== LOJAS ====== */
 .stores {
   text-align: center;
   padding: 80px 20px;
@@ -271,8 +270,6 @@ body {
 }
 
 
-
-
 .wlj {
   text-align: center;
   background: linear-gradient(90deg, #26316a, #56388e, #2f7bb9);
@@ -329,7 +326,6 @@ body {
   padding: 40px 40px;
 }
 
-/* garante posicionamento do menu mobile quando aberto */
 .navbar {
   position: relative;
 }
@@ -344,7 +340,6 @@ body {
   margin: 0 auto;
 }
 
-/* estado aberto do menu mobile */
 .nav-links.open {
   display: flex;
   flex-direction: column;
@@ -462,4 +457,24 @@ body {
 
 .map-btn:hover {
     background-color: #2f69d8;
+}
+
+.hero-banner {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin-top: 0px; 
+}
+
+.banner-promocional {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px; 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.hero-content {
+      display: none;
 }
